@@ -1,4 +1,4 @@
-def calculate_days_and_seconds_final(start_str, end_str):
+def calculate_period_of_life(start_str, end_str):
     """Функция для вычисления количества дней с начала года до даты"""
     def days_before_date(year, month, day):
         days_per_month = [31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31]
